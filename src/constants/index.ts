@@ -1,0 +1,73 @@
+export const navLinks = [
+  {
+    label: "Home",
+    route: "/",
+    icon: "/assets/icons/home.svg",
+  },
+  {
+    label: "Image Restore",
+    route: "/",
+    icon: "/",
+  },
+  {
+    label: "Generative Fill",
+    route: "/",
+    icon: "/",
+  },
+  {
+    label: "",
+    route: "/",
+    icon: "/",
+  },
+  {
+    label: "",
+    route: "/",
+    icon: "/",
+  },
+  {
+    label: "",
+    route: "/",
+    icon: "/",
+  },
+  {
+    label: "Profile",
+    route: "/profile",
+    icon: "/assets/icons/profile.svg",
+  },
+  {
+    label: "",
+    route: "/",
+    icon: "/",
+  },
+];
+
+export const aspectRatioOptions = {
+  "1:1": {
+    aspectRatio: "1:1",
+    label: "Square (1:1)",
+    width: 1000,
+    height: 1000,
+  },
+  "3:4": {
+    aspectRatio: "3:4",
+    label: "Standard Portrait (3:4)",
+    width: 1000,
+    height: 1334,
+  },
+  "9:16": {
+    aspectRatio: "9:16",
+    label: "Phone Portrait (9:16)",
+    width: 1000,
+    height: 1778,
+  },
+};
+
+export const defaultValues = {
+  title: "",
+  aspectRatio: "",
+  color: "",
+  prompt: "",
+  publicId: "",
+};
+
+export const creditFee = -1;
